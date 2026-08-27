@@ -1,0 +1,74 @@
+[
+  {
+    "layer": 0,
+    "relative_depth": 0.0,
+    "top_singular_value": 6.941352844238281,
+    "cosine_separation": -0.02500596083700657
+  },
+  {
+    "layer": 1,
+    "relative_depth": 0.08333333333333333,
+    "top_singular_value": 7.172347068786621,
+    "cosine_separation": -0.024184550275094807
+  },
+  {
+    "layer": 2,
+    "relative_depth": 0.16666666666666666,
+    "top_singular_value": 9.777094841003418,
+    "cosine_separation": -0.030004402622580528
+  },
+  {
+    "layer": 3,
+    "relative_depth": 0.25,
+    "top_singular_value": 14.663297653198242,
+    "cosine_separation": -0.04817339287592404
+  },
+  {
+    "layer": 4,
+    "relative_depth": 0.3333333333333333,
+    "top_singular_value": 18.992389678955078,
+    "cosine_separation": -0.061349979834631085
+  },
+  {
+    "layer": 5,
+    "relative_depth": 0.4166666666666667,
+    "top_singular_value": 17.969322204589844,
+    "cosine_separation": -0.0506504907971248
+  },
+  {
+    "layer": 6,
+    "relative_depth": 0.5,
+    "top_singular_value": 21.378313064575195,
+    "cosine_separation": -0.0711558279581368
+  },
+  {
+    "layer": 7,
+    "relative_depth": 0.5833333333333334,
+    "top_singular_value": 25.261306762695312,
+    "cosine_separation": -0.06234342622337863
+  },
+  {
+    "layer": 8,
+    "relative_depth": 0.6666666666666666,
+    "top_singular_value": 34.47566604614258,
+    "cosine_separation": -0.06046680126746651
+  },
+  {
+    "layer": 9,
+    "relative_depth": 0.75,
+    "top_singular_value": 45.76569747924805,
+    "cosine_separation": -0.05286015756428242
+  },
+  {
+    "layer": 10,
+    "relative_depth": 0.8333333333333334,
+    "top_singular_value": 60.69025421142578,
+    "cosine_separation": -0.041304511825387635
+  },
+  {
+    "layer": 11,
+    "relative_depth": 0.9166666666666666,
+    "top_singular_value": 84.5204086303711,
+    "cosine_separation": -0.01000926026608795
+  }
+]

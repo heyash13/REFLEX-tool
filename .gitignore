@@ -1,0 +1,24 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS / OS artifacts
+.DS_Store
+Thumbs.db
+
+# Large weights / caches
+models/
+*.safetensors
+*.bin
+*.pt
+.cache/

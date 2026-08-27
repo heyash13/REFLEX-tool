@@ -1,0 +1,101 @@
+{
+  "bandit_strategy_ablation": {
+    "UCB-1 (REFLEX)": {
+      "cumulative_reward": 45.2343,
+      "mean_reward_per_step": 0.4523,
+      "optimal_arm_selection_pct": 26.0
+    },
+    "Epsilon-Greedy (eps=0.2)": {
+      "cumulative_reward": 62.231,
+      "mean_reward_per_step": 0.6223,
+      "optimal_arm_selection_pct": 35.0
+    },
+    "Epsilon-Greedy (eps=0.1)": {
+      "cumulative_reward": 28.9609,
+      "mean_reward_per_step": 0.2896,
+      "optimal_arm_selection_pct": 0.0
+    },
+    "Random Selection": {
+      "cumulative_reward": 35.1344,
+      "mean_reward_per_step": 0.3513,
+      "optimal_arm_selection_pct": 13.0
+    }
+  },
+  "probe_depth_ablation": {
+    "Layer_0": {
+      "layer_index": 0,
+      "relative_depth": 0.0,
+      "cosine_separation": 0.0076,
+      "accuracy": 0.125,
+      "f1_score": 0.0,
+      "auroc": 0.2
+    },
+    "Layer_7": {
+      "layer_index": 7,
+      "relative_depth": 0.25,
+      "cosine_separation": 0.1385,
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "auroc": 1.0
+    },
+    "Layer_14": {
+      "layer_index": 14,
+      "relative_depth": 0.5,
+      "cosine_separation": 0.256,
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "auroc": 1.0
+    },
+    "Layer_19": {
+      "layer_index": 19,
+      "relative_depth": 0.68,
+      "cosine_separation": 0.3271,
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "auroc": 1.0
+    },
+    "Layer_24": {
+      "layer_index": 24,
+      "relative_depth": 0.86,
+      "cosine_separation": -0.2963,
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "auroc": 1.0
+    },
+    "Layer_27": {
+      "layer_index": 27,
+      "relative_depth": 0.96,
+      "cosine_separation": -0.2592,
+      "accuracy": 1.0,
+      "f1_score": 1.0,
+      "auroc": 1.0
+    }
+  },
+  "steering_alpha_sweep": {
+    "alpha_0.25": {
+      "alpha": 0.25,
+      "induced_benign_refusal_rate": 46.88,
+      "ablated_harmful_refusal_rate": 30.0
+    },
+    "alpha_0.5": {
+      "alpha": 0.5,
+      "induced_benign_refusal_rate": 67.92,
+      "ablated_harmful_refusal_rate": 20.0
+    },
+    "alpha_1.0": {
+      "alpha": 1.0,
+      "induced_benign_refusal_rate": 92.41,
+      "ablated_harmful_refusal_rate": 0.0
+    },
+    "alpha_2.0": {
+      "alpha": 2.0,
+      "induced_benign_refusal_rate": 99.75,
+      "ablated_harmful_refusal_rate": 0.0
+    },
+    "alpha_5.0": {
+      "alpha": 5.0,
+      "induced_benign_refusal_rate": 100.0,
+      "ablated_harmful_refusal_rate": 0.0
+    }
+  }
+}

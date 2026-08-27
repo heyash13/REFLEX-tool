@@ -1,0 +1,9 @@
+{
+  "baseline_harmful_refusal_rate": 0.0,
+  "ablated_harmful_refusal_rate": 0.0,
+  "baseline_benign_false_refusal_rate": 0.0,
+  "induced_benign_refusal_rate": 0.0,
+  "causal_necessity_score": 0.0,
+  "causal_sufficiency_score": 0.0,
+  "causal_mediation_index": 0.0
+}
